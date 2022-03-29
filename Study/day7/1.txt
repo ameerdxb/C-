@@ -1,0 +1,47 @@
+https://github.com/sivaramdraksharam/C-programming
+complete all examples of data structures in c
+For software project development, the models are:
+1. Waterfall model
+2. Cocomo model
+3. spiral model
+...
+..
+6. Agile model
+	- scrum
+	- kanban
+SDLC:-  Software Development Life Cycle
+phases:
+1. Requirement analysis
+2. Design  or architecture
+3. Coding
+4. Testing- manual, automated -(Black box testing, Whitebox testing, Regression testing etc.,)
+   Debug or troubleshooting during testing
+5. Deployment or placing an app in a server
+6. Maintenance- software frameworks ease maintenance of software like spring framework
+
+Design patterns: Design patterns are the ideas to resolve recurring problems in software development.
+		-creational- singleton, prototype, ...
+		-structural - factory , facade..
+		-behavioural - Observer ..
+
+
+class President{
+	public:
+	President()
+		{
+			
+		}
+	
+	void speech()
+		{
+			cout<<"speach by president to curb polution in country";
+		}	
+..};
+President p1; 
+main()
+{
+	
+
+}
+
+Framework: A framework uses design patterns. By using frameworks, the developer's work become easy and efficient.

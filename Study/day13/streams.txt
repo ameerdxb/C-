@@ -1,0 +1,44 @@
+unformatted console I/O
+
+put and get
+getline and write
+
+formatted console I/O
+
+ios class functions and flags
+Manipulators
+user-defined output functions
+
+ios functions
+
+width()
+precision()
+fill()
+setf()	- sets the flag left-justification and right justification
+
+cout.setf(arg1,arg2);
+
+ios::left		ios::adjustfield
+ios::right		ios::adjustfield
+ios::scientific	ios::floatfield
+ios::fixed		ios::floatfield
+
+ios::doc		ios::basefield
+ios::oct		ios::basefield
+ios::hex		ios::basefield
+
+ios::showpos   ---> shows sign
+ios::showpoint ---> shows trailing zeros
+ios::showbase ---> shows base indicator
+
+
+unsetf() - clears the flags
+
+Manipulators
+
+setw()
+setprecision()
+setfill()
+setiosflags()
+resetiosflags()
+

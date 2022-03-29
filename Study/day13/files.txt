@@ -1,0 +1,96 @@
+ifstream
+	contains open() default input mode.
+	Inherits the functions get(),getline(),read(),seekg(), and tellg() from istream
+ofstream
+	contains open() default input mode.
+	Inherits the functions put(),putline(),write(),seekp(), and tellp() from ostream
+fstream
+	support simultaneous input and output operations
+	inherits all the functions from iostream.
+
+Opening files using constructor
+	ofstream outfile("myfile.txt") // output only
+	ifstream infile("myfile.txt") // input only
+
+Opening files using open()
+	ofstream outfile;
+	outfile.open("myfile.txt");
+	outfile.close();
+	outfile.open("hello.txt");
+	outfile.close();
+
+Detecting End-Of-File
+
+	ifstream fin;
+	fin.open("myfile.txt");
+	while(fin)		or while(fin.eof()!=0)
+
+Random Files
+------------------
+File Modes:
+
+fin.open("filename",mode);
+
+modes:
+	
+ios::app		append mode
+ios::ate		go to end of line on opening
+ios::binary 	Binary file
+ios::trunc 	Delete the contents of the file if exists
+ios::in 		Open file for reading only
+ios::out		Open file for writing only
+
+
+file pointers
+---------------
+
+seekg()   moves get point(input) to the specified location
+seekp()   moves put point(output) to the specified location
+tellg()	returns the current position of the get pointer
+tellp()	returns the current position of the put pointer
+
+
+seekg(offset,refposition)
+seekp(offset,refposition)
+
+refposition
+--------
+ios::beg	-- start of the file
+ios::cur	-- current position of the pointer
+ios::end	-- End of file
+
+fout.seekp(0,ios::beg)
+fout.seekp(0,ios::end)
+fout.seekp(m,ios::cur)
+fout.seekp(-m,ios::end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
