@@ -1,0 +1,9 @@
+Pros
+------
+1. Indentation
+2.commenting
+3. files opened are close
+
+cons
+---
+1.validation not done

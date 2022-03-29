@@ -1,0 +1,24 @@
+Histogram 
+Case Study 1  - Algorithm
+----------------------------------
+Step 1:  Start
+Step 2:  Create an object infile of ifstream class
+Step 3:  Initialize wordcount,sentence count, and 
+   	 other integer variables
+Step 4:  Declare a character variable and sentence length array.
+Step 5:  Read the filename from the user and store it in a string variable.
+Step 6:  Open the file using open() member function.
+Step 7:  Use if statement to check if the file exist or not, if not then 
+   	 return a string promting the user to enter a valid filename.
+Step 8:  Else go to step 8.
+Step 9:  Read all data of file object inside a while loop.
+Step 10: After each read, check for end-of-file using the eof() member function.
+Step 11: Check for ' ','\n' and '.' characters using if construct.
+Step 12: If ' ' is found increment wordcount, Else go to step 11.
+Step 13: If '\n' is found reset wordcount, Else go to step 12.
+Step 14: If '.' is found then increment the wordcount and store it in an array.
+Step 15: Increment sentence count and reset word count.
+Step 16: End the while loop.
+Step 17: Use two for loops to print histogram.
+Step 18: Close the file using close() member function.
+Step 19: Stop.
